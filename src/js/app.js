@@ -189,9 +189,7 @@ function paginaAnterior() {
   const paginaAnterior = document.querySelector("#anterior");
   paginaAnterior.addEventListener('click', () => {
     pagina--;
-
     botonesPaginador();
-  
   });
 }
 
