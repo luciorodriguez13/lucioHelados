@@ -1,0 +1,126 @@
+{
+
+    "sabores": [
+        {
+            "id": 1,
+            "nombre": "Dulce de Leche"
+        },
+        {
+            "id": 2,
+            "nombre": "Dulce de Leche Granizado"
+        },
+        {
+            "id": 3,
+            "nombre": "Dulce de Leche con Nuez"
+
+        },
+        {
+            "id": 4,
+            "nombre": "Super Dulce de Leche"
+        },
+        {
+            "id": 5,
+            "nombre": "Milka"
+        },
+        {
+            "id": 6,
+            "nombre": "Chocolate"
+        },
+        {
+            "id": 7,
+            "nombre": "Chocolate con Almendras"
+        },
+        {
+            "id": 8,
+            "nombre": "Chocolate Blanco"
+        },
+        {
+            "id": 9,
+            "nombre": "Chocolate Suizo"
+        },
+        {
+            "id": 10,
+            "nombre" : "Chocolate Amargo"
+        },
+        {
+            "id": 11,
+            "nombre" : "Kinder"
+        },
+        {
+            "id": 12,
+            "nombre" : "Rhodesia"
+        },
+        {
+            "id": 13,
+            "nombre" : "Americana"
+        },
+        {
+            "id": 14,
+            "nombre" : "Tramontana"
+        },
+        {
+            "id": 15,
+            "nombre" : "Crema del Cielo"
+        },
+        {
+            "id": 16,
+            "nombre" : "Granizado"
+        },
+        {
+            "id": 17,
+            "nombre" : "Crema con Cerezas"
+        },
+        {
+            "id": 18,
+            "nombre" : "Cookie"
+        },
+        {
+            "id": 19,
+            "nombre" : "Vainilla"
+        },
+        {
+            "id": 20,
+            "nombre" : "Oreo"
+        },
+        {
+            "id": 21,
+            "nombre" : "Flan con Dulce de Leche"
+        },
+        {
+            "id": 22,
+            "nombre" : "Frutilla a la Crema"
+        },
+        {
+            "id": 23,
+            "nombre" : "Kinotos al Whisky"
+        },
+        {
+            "id": 24,
+            "nombre" : "Mascarpone con Frutos Rojos"
+        },
+        {
+            "id": 25,
+            "nombre" : "Limón"
+        },
+        {
+            "id": 26,
+            "nombre" : "Frutilla al Agua"
+        },
+        {
+            "id": 27,
+            "nombre" : "Ananá"
+        },
+        {
+            "id": 28,
+            "nombre" : "Durazno"
+        },
+        {
+            "id": 29,
+            "nombre" : "Manzana"
+        },
+        {
+            "id": 30,
+            "nombre" : "Naranja"
+        }
+    ]
+}

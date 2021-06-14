@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucio Helados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <div class="contenedor-heladeria">
+        <div class="imagen"></div>
+        <div class="app">
+            <header class="header">
+                <h1>Hace tu Pedido</h1>
+            </header>
+            <nav class="tabs">
+                <button type="button" data-paso="1">Recipiente</button>
+                <button type="button" data-paso="2">Selección de gustos</button>
+                <button type="button" data-paso="3">Información cliente</button>
+                <button type="button" data-paso="4">Pedido</button>
+            </nav>
+
+            <!--Inicia contenido App-->
+
+            <div id="paso-1" class="seccion">
+                <h2>Elige tu contenedor</h2>
+            </div>
+
+            <div id="paso-2" class="seccion">
+                <h2>Elige tus sabores</h2>
+                <p class="text-center">Sabores</p>
+                <div id="sabores" class="listado-gustos-helados"></div>
+            </div>
+
+            <div id="paso-3" class="seccion">
+                <h2>Información del cliente</h2>
+
+                <p class="text-center">Colocá tus datos para completar el pedido</p>
+
+                <form class="formulario">
+                    <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input   id="nombre"
+                            type="text" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="direccion">Direccion</label>
+                        <input  id="direccion"
+                                type="text">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input  id="telefono"
+                                type="text">
+                    </div>
+                    <div class="campo">
+                        <label for="fecha ">Fecha</label>
+                        <input  id="fecha"
+                                type="date">
+                    </div>
+                    <div class="campo">
+                        <label for="hora">Hora</label>
+                        <input  id="hora"
+                                type="time">
+                    </div>
+                </form>
+
+            </div>
+
+            <div id="paso-4" class="seccion contenido-pedido">
+                <h2>Resumen del pedido</h2>
+            </div>
+
+            <div class="paginacion">
+                <button
+                    id="anterior">
+                    
+                    &laquo; Anterior
+                </button>
+                <button               
+                    id="siguiente">
+
+                    Siguiente &raquo;
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
